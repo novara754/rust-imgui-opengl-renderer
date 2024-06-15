@@ -1,8 +1,7 @@
 # imgui-opengl-renderer
 
-[![Build Status](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer.svg?branch=master)](https://travis-ci.org/michaelfairley/rust-imgui-opengl-renderer)
-[![Documentation](https://docs.rs/imgui-opengl-renderer/badge.svg)](https://docs.rs/imgui-opengl-renderer)
-[![Version](https://img.shields.io/crates/v/imgui-opengl-renderer.svg)](https://crates.io/crates/imgui-opengl-renderer)
+> This is a fork of [michaelfairley/rust-imgui-opengl-renderer](https://github.com/michaelfairley/rust-imgui-opengl-renderer)
+> the uses the latest version of imgui straight from GitHub.
 
 OpenGL (3+) rendering for [imgui-rs](https://github.com/Gekkio/imgui-rs)
 
@@ -17,4 +16,4 @@ OpenGL (3+) rendering for [imgui-rs](https://github.com/Gekkio/imgui-rs)
    renderer.render(ui);
    ```
 
-Take a look at the [example app](https://github.com/michaelfairley/rust-imgui-sdl2/blob/master/examples/demo.rs) to see it all in context.
+Take a look at the [example app](./examples/demo.rs) to see it all in context.
